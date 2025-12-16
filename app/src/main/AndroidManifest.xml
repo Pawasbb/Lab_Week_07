@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab_week_07">
 
-        <!-- MapsActivity sebagai Launcher Activity -->
+        <!-- MAPS ACTIVITY (LAUNCHER) -->
         <activity
             android:name=".MapsActivity"
             android:exported="true"
@@ -24,12 +24,12 @@
             </intent-filter>
         </activity>
 
-        <!-- MainActivity tanpa kode tambahan -->
+        <!-- MAIN ACTIVITY (NOT USED) -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
 
-        <!-- API KEY (nanti diganti Commit 3) -->
+        <!-- 🔐 SECURE GOOGLE MAPS API KEY -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAs6Mrebx0kFe1AB9IFEgMlbXkTe5iK2Lg" />
