@@ -13,29 +13,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab_week_07">
 
-        <!-- MAIN ACTIVITY (LAUNCHER) — MapsActivity -->
+        <!-- MapsActivity sebagai Launcher Activity -->
         <activity
             android:name=".MapsActivity"
             android:exported="true"
             android:label="@string/title_activity_maps">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
 
-        <!-- Original MainActivity (NOT Launcher) -->
+        <!-- MainActivity tanpa kode tambahan -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
 
-        <!-- GOOGLE MAPS API METADATA (KEY ADDED IN COMMIT NO.2) -->
-        <!-- LEAVE THIS EMPTY FOR NOW -->
+        <!-- API KEY (nanti diganti Commit 3) -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY_HERE" />
+            android:value="AIzaSyAs6Mrebx0kFe1AB9IFEgMlbXkTe5iK2Lg" />
 
     </application>
 
